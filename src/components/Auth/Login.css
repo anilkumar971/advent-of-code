@@ -1,0 +1,50 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f0f23;
+  color: #cccccc;
+}
+
+.login-card {
+  background-color: #1a1a2f;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.github-login-btn {
+  background-color: #009900;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.github-login-btn:hover {
+  background-color: #00cc00;
+}
+
+.login-footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-footer a {
+  color: #009900;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
